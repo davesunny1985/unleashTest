@@ -246,7 +246,8 @@ namespace unleashTest
                     val = String.Format("{0} {1}", ConvertWholeNumber(wholeNo).Trim(), andStr);
                 }
             }
-            catch { }
+            catch {
+            }
             return minusStr + val.Trim();
         }
     }
